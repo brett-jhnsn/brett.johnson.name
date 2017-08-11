@@ -1,0 +1,99 @@
+﻿<!-- Header -->
+<template id="headerTemplate">
+    <header id="header" class="alt">
+        <a href="index.html" class="logo"><strong>Brett</strong> <span>Johnson</span></a>
+        <nav>
+            <a href="#menu">Menu</a>
+        </nav>
+    </header>
+</template>
+
+<!-- Menu -->
+<template id="menuTemplate">
+    <nav id="menu">
+        <ul class="links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="career.html">Career</a></li>
+            <li><a href="company.html">Company</a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li><a href="skills.html">Skills</a></li>
+            <li><a href="interests.html">Other Interests</a></li>
+        </ul>
+    </nav>
+</template>
+
+<!-- Contact -->
+<template id="contactTemplate">
+    <section id="contact">
+        <div class="inner">
+            <section>
+                <h2>Contact Me</h2>
+                <form id="emailForm">
+                    <div class="field half first">
+                        <label for="from_name">Name</label>
+                        <input type="text" name="from_name" id="from_name" />
+                    </div>
+                    <div class="field half">
+                        <label for="reply_to">Email</label>
+                        <input type="text" name="reply_to" id="reply_to" />
+                    </div>
+                    <div class="field">
+                        <label for="message_html">Message</label>
+                        <textarea name="message_html" id="message_html" rows="6"></textarea>
+                    </div>
+                    <div class="g-recaptcha" data-sitekey="6LcxgCwUAAAAACCrB7h32hwTGI5d9u3kiqhmEAcE" data-size="normal" style="margin-top:10px;"></div>
+                    <ul class="actions">
+                        <li><input type="submit" id="sendMessageButton" value="Send Message" class="special" /></li>
+                        <li><input type="reset" id="clearMessageButton" value="Clear" /></li>
+                    </ul>
+                    <input type="hidden" name="to_name" value="Brett Johnson" />
+                </form>
+            </section>
+            <section class="split">
+                <section>
+                    <div class="contact-method">
+                        <span class="icon alt fa-envelope"></span>
+                        <h3>Email</h3>
+                        <a href="mailto:brett.jhnsn+dotname@gmail.com">brett.jhnsn@gmail.com</a>
+                    </div>
+                </section>
+                <section>
+                    <div class="contact-method">
+                        <span class="icon alt fa-phone"></span>
+                        <h3>Phone</h3>
+                        <span>(540) 751-8438</span>
+                    </div>
+                </section>
+                <section>
+                    <div class="contact-method">
+                        <span class="icon alt fa-home"></span>
+                        <h3>Location</h3>
+                        <span>
+                            Ashburn, VA <br />
+                            United States of America
+                        </span>
+                    </div>
+                </section>
+            </section>
+        </div>
+    </section>
+</template>
+
+<!-- Footer -->
+<template id="footerTemplate">
+    <footer id="footer">
+        <div class="inner">
+            <ul class="icons">
+                <!--<li><a href="#" class="icon alt fa-twitter"><span class="label">Twitter</span></a></li>-->
+                <li><a href="https://www.facebook.com/brett.johnson.18294" class="icon alt fa-facebook" target="_blank"><span class="label">Facebook</span></a></li>
+                <!--<li><a href="#" class="icon alt fa-instagram"><span class="label">Instagram</span></a></li>-->
+                <li><a href="https://github.com/brett-jhnsn/" class="icon alt fa-github" target="_blank"><span class="label">GitHub</span></a></li>
+                <li><a href="https://www.linkedin.com/in/brettjohnsonva" class="icon alt fa-linkedin" target="_blank"><span class="label">LinkedIn</span></a></li>
+            </ul>
+            <ul class="copyright">
+                <li>&copy; Brett Johnson 2017</li>
+                <li>Corporate: <a href="https://www.falconlogic.com">Falcon Logic</a></li>
+            </ul>
+        </div>
+    </footer>
+</template>

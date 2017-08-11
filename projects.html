@@ -1,0 +1,153 @@
+﻿<!DOCTYPE HTML>
+<!--
+    Forty by HTML5 UP
+    html5up.net | @ajlkn
+    Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+<head>
+    <title>Brett Johnson - Projects</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
+    <!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+    <link rel="import" href="_imports.html" />
+    <script src='https://www.google.com/recaptcha/api.js'></script>
+</head>
+<body>
+
+    <!-- Wrapper -->
+    <div id="wrapper">
+        <!-- Header -->
+        <header id="header">
+            <a href="index.html" class="logo"><strong>Brett</strong> <span>Johnson</span></a>
+            <nav>
+                <a href="#menu">Menu</a>
+            </nav>
+        </header>
+        <!-- Menu -->
+        <!-- Main -->
+        <div id="main">
+
+            <!-- One -->
+            <section id="one">
+                <div class="inner">
+                    <header class="major">
+                        <h1>Projects</h1>
+                    </header>
+                    <p>
+                        The projects I've worked on in almost 20 years cover the gamut from VB6 data entry systems
+                        to mobile applications, C# web apps, progressive web apps, and VB.NET/C# WinForms applications.
+                    </p>
+                    <!-- Content -->
+                    <h2>Current &amp; Ongoing Projects</h2>
+                    <div class="row">
+                        <div class="6u 12u$(small)">
+                            <h3>IC ARC</h3>
+                            <p>
+                                I'm the lead developer/architect of a 3 person dev team on the <a href="https://acq.westfields.net" target="_blank" title="IC ARC">IC ARC</a>. This
+                                is a C# WebForms app with a SQL Server 2016 backend. We started this project in 2011 as a replacement for a legacy
+                                ColdFusion/Oracle system. The system is responsible for handling procurements for most of the IC.
+                            </p>
+                        </div>
+                        <div class="6u$ 12u$(small)">
+                            <h3>IC eSRS</h3>
+                            <p>
+                                I'm a system architect and developer on the <a href="https://icesrs.westfields.net" target="_blank" title="IC ESRS">IC eSRS</a> subcontract reporting system. This
+                                system gathers subcontracting data from small businesses and large primes for the IC.
+                            </p>
+                        </div>
+                        <!-- Break -->
+                        <div class="4u 12u$(medium)">
+                            <h3>Web Exams</h3>
+                            <p>
+                                I created a simple <a href="https://exams.falconlogic.com" target="_blank">C# ASP.Net MVC web app</a> using Twitter bootstrap for theming so that we
+                                could load exam dumps and take practice exams (e.g., I had to pass my Security + as quickly as possible).
+                            </p>
+                        </div>
+                        <div class="4u 12u$(medium)">
+                            <h3>Docker Microservices</h3>
+                            <p>Building docker microservices in C# for deployment to Azure &amp; AWS.</p>
+                        </div>
+                        <div class="4u$ 12u$(medium)">
+                            <h3>AWS</h3>
+                            <p>Currently working on being an AWS certified solution developer. This site is on AWS!</p>
+                        </div>
+                    </div>
+
+                    <hr class="major" />
+                    <h2>Mobile Optimized Applications</h2>
+                    <div class="row">
+                        <div class="6u 12u$(small)">
+                            <h3>Region Alert</h3>
+                            <p>
+                                I build an Apache Cordova mobile application for the Android platform called RegionAlert as a prototype for a government customer.
+                                This application's objective was to allow the collection of geospatially coordinated intelligence data and then allow that intelligence to be
+                                pushed to mobile subscribers in real time. In other words, a user could indicate there was a fire at x/y lat/long, and then other users would receive
+                                that intelligence when they came within a specified radius of that geolocation. A central service stored all the notifications in a SQL Server database
+                                and was called from the mobile device using a C# REST Api. Google cloud messaging was used to push notifications to the mobile device.
+                            </p>
+                        </div>
+                        <div class="6u$ 12u$(small)">
+                            <h3>Talon/MediaSnap</h3>
+                            <p>
+                                I built a mobile optimized, offline, <a href="https://mediasnap.falconlogic.com" title="MediaSnap" target="_blank">cached HTML5 mapping application, MediaSnap</a> as
+                                a prototype for a government customer. The purpose of this application was
+                                to allow agents in the field to annotate a cached offline map in a zero-install Android and web browser application. I built a HTML5 website that was
+                                cached using an application manifest. On logging in and specifying a region of interest it would cache map tiles in local storage from a
+                                <a href="https://www.openstreetmap.org>" title="Open Street Map">OSM (OpenStreetMap)</a> provider.
+                                The map was rendered using <a href="http://leafletjs.com/" title="leaflet" target="_blank">leaflet.js</a> and I wrote several custom plugins to allow collection of data. The map supports
+                                textual, freehand drawing, photographic and video annotations. While the application is offline, the annotations are stored in local storage. Once comms are obtained,
+                                the application syncs with the central server using a C# REST Api. Once online, any annotations collected by other users in your geospatial region of interest are
+                                automatically pushed to you, cached offline, and displayed on your map for current and future consumption.
+                            </p>
+                        </div>
+                    </div>
+                    <hr class="major" />
+                    <h2>Selected Web &amp; Desktop Applications</h2>
+                    <div class="row">
+                        <div class="4u 12u$(medium)">
+                            <h3>InfoPoll Enterprise</h3>
+                            <p>
+                                I was contracted to be the lead developer for <a href="https://www.agissar.com/infopoll-enterprise-edition/" target="_blank" title="InfoPoll Enterprise">InfoPoll Enterprise</a>,
+                                an application used to automate data collection from mail extraction machines. Uses OPC to integrate with data
+                                collectors on these machines. WinForms VB.NET frontend.
+                            </p>
+                        </div>
+                        <div class="4u 12u$(medium)">
+                            <h3>Donation Processing</h3>
+                            <p>
+                                Built a donation processing application suite for my prior firm Synetech. This was a C# and VB6 set of applications used
+                                to do check imaging, banking and credit card processing activities, and FEC reporting.
+                            </p>
+                        </div>
+                        <div class="4u 12u$(medium)">
+                            <h3>InfoPoll Web Warehouse</h3>
+                            <p>
+                                After success with InfoPoll Enterprise, was contracted to build <a href="https://www.agissar.com/infopoll-web-warehouse/" target="_blank" title="InfoPoll Web Warehouse">InfoPoll Web Warehouse</a>,
+                                a C# MVC web based system for warehouse management. The system was generates and parses QR codes for warehouse inventory (boxes/pallets/etc) tracking and reporting. The system integrates
+                                with LDAP for custom authentication.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <!-- Contact -->
+        <!-- Footer -->
+    </div>
+
+    <!-- Scripts -->
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/jquery.scrolly.min.js"></script>
+    <script src="assets/js/jquery.scrollex.min.js"></script>
+    <script src="assets/js/skel.min.js"></script>
+    <script src="assets/js/util.js"></script>
+    <!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+    <script type="text/javascript" src="https://cdn.emailjs.com/dist/email.min.js"></script>
+    <script src="assets/js/main.js"></script>
+</body>
+</html>
